@@ -1,36 +1,50 @@
-# english-learning-system
+# English Learning System
 
 一套以**通過條件**而非日期推進的英語學習系統。
 
-多數英語計畫的骨架是日曆（第幾週做什麼），這套的骨架是通過條件（達到什麼才能往下走）。差別不只是形式：趕進度時人會挑「看起來有進度」的活動；沒有截止日時，才敢做那些真正推動能力、卻慢得塞不進短期計畫的事。
+[![License: MIT](https://img.shields.io/badge/License-MIT-38BDF8.svg)](LICENSE)
+[![Pages](https://img.shields.io/badge/Live-Demo-22D3EE?logo=github&logoColor=white)](https://yu-0312.github.io/english-learning-system/)
+[![Skills](https://img.shields.io/badge/AI%20Skills-3-A78BFA)](skills/)
 
-**網站：** https://yu-0312.github.io/english-learning-system/
+**[→ 打開線上版](https://yu-0312.github.io/english-learning-system/)** · 先讀 [`framework.html`](framework.html)
+
+<p align="center">
+  <img src="assets/course-map.svg" alt="英語學習系統課程地圖：五道關卡主線，加上經歷語料庫與考試軌道兩條支線" width="100%">
+</p>
 
 ---
 
-## 內容
+## 為什麼是「過關」而不是「第幾週」
+
+多數英語計畫的骨架是日曆（第幾週做什麼）。這套的骨架是通過條件（達到什麼才能往下走）。
+
+差別不只是形式：趕進度時人會挑「看起來有進度」的活動；沒有截止日時，才敢做那些真正推動能力、卻慢得塞不進短期計畫的事。
+
+> 沒達到就留在原地。**這不是落後，是這套系統正常運作的樣子。**
+
+---
+
+## 三份內容
 
 | 檔案 | 是什麼 | 什麼時候讀 |
 |---|---|---|
-| [`framework.html`](framework.html) | **五關框架** — 主線。五道關卡各附可自測的通過條件、常見卡點，以及失效模式的對策 | 先讀這份 |
+| [`framework.html`](framework.html) | **五關框架** — 主線。五道關卡各附可自測的通過條件、常見卡點，以及失效模式的對策 | **先讀這份** |
 | [`story-bank.html`](story-bank.html) | **經歷語料庫** — 把真實經歷寫成可重複使用的英文段落：五塊結構、模板、虛構範例、共用語塊 | 通過第二關後開始建立 |
-| [`exam-track.html`](exam-track.html) | **考試軌道** — 需要正式成績時的窄軌：TOEFL 2026 改制、CEFR 分數對照、時間估算、八週衝刺模板 | 通過第三關後才進去 |
+| [`exam-track.html`](exam-track.html) | **考試軌道** — 需要正式成績時的窄軌：TOEFL 2026 改制、CEFR 分數對照、時間估算、八週衝刺模板 | 通過第三關後才進去（可選） |
 
-### 五關
+### 五關主線
 
-```
-1 累積輸入   → 能連續聽 30 分鐘不回放，且不再逐句翻回母語
-2 注意力精修 → 陌生材料聽寫正確率穩定 90%+，且能自己指出錯在哪一類
-3 受控輸出   → 第二版明顯優於第一版，且改動是自己看出來的
-4 自由輸出   → 被追問、被打斷、被換話題時仍撐得住
-5 用它做事   → 這週用它完成了一件事，而不是完成了一份練習
-```
-
-沒達到就留在原地。**這不是落後，是這套系統正常運作的樣子。**
+| # | 關卡 | 通過條件（摘要） |
+|---|---|---|
+| 1 | 累積輸入 | 連續聽 30 分鐘不回放，且不再逐句翻回母語 |
+| 2 | 注意力精修 | 陌生材料聽寫正確率穩定 90%+，且能自己指出錯在哪一類 |
+| 3 | 受控輸出 | 第二版明顯優於第一版，且改動是自己看出來的 |
+| 4 | 自由輸出 | 被追問、被打斷、被換話題時仍撐得住 |
+| 5 | 用它做事 | 這週用它完成了一件事，而不是完成了一份練習 |
 
 ---
 
-## Skills
+## AI Skills
 
 `skills/` 下有三個 skill，讓 AI 助理扮演固定角色，而不是每次重下指令。
 
@@ -42,9 +56,9 @@
 
 三個共用一條規則：**不給你背模板**。高階評分標準本身就在扣模板化的回答。
 
-### 安裝
+### 安裝到你的 AI 工具
 
-每個 skill 是一個含 `SKILL.md` 的資料夾。多數支援 skill 的 AI 工具只要把資料夾複製進它的 skills 目錄即可，例如：
+每個 skill 是一個含 `SKILL.md` 的資料夾。複製進你工具的 skills 目錄即可：
 
 ```bash
 git clone https://github.com/Yu-0312/english-learning-system.git
